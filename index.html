@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio | IT-Enthusiast</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Start</a></li>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#infrastructure">Infrastruktur</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <h1>Sören Eckhardt</h1>
+            <p class="tagline">IT-Enthusiast | Linux-Experte | Automatisierungsfan</p>
+            <a href="#projects" class="btn">Meine Projekte entdecken</a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Dark mode toggle">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </button>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center">Über mich</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="intro">Hallo! Ich bin Sören Eckhardt, ein leidenschaftlicher Schüler mit einer tiefen Faszination für Technik, insbesondere für Linux-Systeme, Virtualisierung und Automatisierung. In meiner Freizeit beschäftige ich mich intensiv mit IT-Themen und baue meine eigene Infrastruktur auf.</p>
+                    
+                    <div class="experience">
+                        <h3>Mein Weg in die IT</h3>
+                        <p>Schon früh habe ich meine Leidenschaft für Technik entdeckt und mir selbst das Programmieren und die Systemadministration beigebracht. Nach meinem Abitur plane ich, Informatik zu studieren, um mein Wissen zu vertiefen und meine Fähigkeiten weiter auszubauen.</p>
+                        
+                        <div class="education">
+                            <h3>Bildung</h3>
+                            <div class="education-item">
+                                <h4>Realschule Gerstetten</h4>
+                                <p>Mittlere Reife (in Vorbereitung)</p>
+                                <p class="date">voraussichtlicher Abschluss: 2026</p>
+                            </div>
+                            <div class="education-item future">
+                                <h4>Technisches Gymnasium Heidenheim</h4>
+                                <p>Allgemeine Hochschulreife (geplant)</p>
+                                <p class="date">voraussichtlich 2026 - 2029</p>
+                            </div>
+                        </div>
+                        
+                        <div class="skills">
+                            <h3>Meine Fähigkeiten</h3>
+                            <div class="skill-categories">
+                                <div class="skill-category">
+                                    <h4>Systemadministration</h4>
+                                    <ul>
+                                        <li>Linux-Server (Debian/Ubuntu, CentOS)</li>
+                                        <li>Virtualisierung (Proxmox, LXC, Docker)</li>
+                                        <li>Netzwerkkonfiguration und -sicherheit</li>
+                                        <li>Monitoring (Grafana, Prometheus)</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>Automatisierung</h4>
+                                    <ul>
+                                        <li>Bash-Scripting</li>
+                                        <li>Ansible</li>
+                                        <li>CI/CD-Pipelines</li>
+                                        <li>n8n Workflows</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h4>Entwicklung</h4>
+                                    <ul>
+                                        <li>Python</li>
+                                        <li>JavaScript/Node.js</li>
+                                        <li>Web-Entwicklung (HTML, CSS, React)</li>
+                                        <li>Datenbanken (PostgreSQL, MySQL)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="personal-interests">
+                            <h3>Meine Leidenschaften</h3>
+                            <p>Neben der IT begeistere ich mich für:</p>
+                            <ul>
+                                <li><i class="fas fa-plane"></i> <strong>Segelfliegen</strong> - Die Faszination des Fliegens und die Technik dahinter begeistern mich gleichermaßen</li>
+                                <li><i class="fas fa-robot"></i> <strong>Heimautomatisierung</strong> - Mit Home Assistant und selbstgebauten Lösungen</li>
+                                <li><i class="fas fa-server"></i> <strong>Selbstgehostete Dienste</strong> - Für mehr Kontrolle und Datenschutz</li>
+                                <li><i class="fas fa-code-branch"></i> <strong>Open-Source-Software</strong> - Aktive Beteiligung an spannenden Projekten</li>
+                            </ul>
+                            
+                            <div class="goals">
+                                <h3>Meine Ziele</h3>
+                                <ul>
+                                    <li>Erfolgreiches Abitur mit Schwerpunkt auf Mathematik und Informatik</li>
+                                    <li>Studium der Informatik mit Fokus auf Systemarchitektur und Künstliche Intelligenz</li>
+                                    <li>Weiterentwicklung meiner Programmierkenntnisse durch Praxisprojekte</li>
+                                    <li>Ausbau meines eigenen IT-Labors mit Fokus auf Virtualisierung und Netzwerktechnik</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-image-container">
+                        <img src="images/soeren.eckhardt.jpg" alt="Sören Eckhardt" class="profile-photo">
+                        <div class="photo-caption">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">LXC</span>
+                            <span class="skill-tag">Netzwerke</span>
+                            <span class="skill-tag">Automatisierung</span>
+                            <span class="skill-tag">Bash</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center">Meine Projekte</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Proxmox Cluster</h3>
+                    <p>Hochverfügbares Cluster aus zwei Hosts mit Ceph-Speicher und automatisiertem Failover.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Mediaserver</h3>
+                    <p>Container-basierte Medialösung mit Jellyfin und den *arr-Apps für automatisierten Medienaustausch.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Home Automation</h3>
+                    <p>Umfassende Heimautomatisierung mit Home Assistant, Zigbee2MQTT und Node-RED.</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Sicherheit & Monitoring</h3>
+                    <p>Umfassendes Monitoring mit Grafana, Prometheus und Alertmanager.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infrastructure Section -->
+    <section id="infrastructure" class="section">
+        <div class="container">
+            <h2 class="text-center">Meine Infrastruktur</h2>
+            <div class="infra-container">
+                <div class="infra-details">
+                    <h3>Übersicht meiner Systemlandschaft</h3>
+                    <p>Meine private Infrastruktur besteht aus einem leistungsfähigen Proxmox-Cluster mit folgenden Hauptkomponenten:</p>
+                    <ul class="infra-list">
+                        <li><strong>Proxmox VE Cluster</strong> (2 Nodes mit Ceph-Speicher)</li>
+                        <li><strong>Container</strong> (LXC):
+                            <ul>
+                                <li>Nginx Proxy Manager</li>
+                                <li>Portainer</li>
+                                <li>Nextcloud</li>
+                                <li>Vaultwarden (Bitwarden-Server)</li>
+                                <li>Paperless-ngx</li>
+                                <li>Trilium Notes</li>
+                                <li>Code-Server (VS Code im Browser)</li>
+                            </ul>
+                        </li>
+                        <li><strong>VMs</strong>:
+                            <ul>
+                                <li>Docker-Host für verschiedene Dienste</li>
+                                <li>Home Assistant für Heimautomatisierung</li>
+                                <li>WireGuard VPN für sicheren Fernzugriff</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="infra-image">
+                    <img src="images/infrastructure.svg" alt="Infrastruktur-Diagramm" id="infra-svg">
+                    <p class="text-center"><small>Vereinfachte Darstellung meiner Infrastruktur</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center">Kontakt</h2>
+            <div class="contact-container">
+                <div class="contact-content">
+                    <h3 class="text-center">Lass uns in Kontakt treten</h3>
+                    <p class="text-center">Ich freue mich über interessante Gespräche und neue Möglichkeiten. Zögere nicht, mich über einen der folgenden Kanäle zu kontaktieren!</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/leftoutofsuicidesquad" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/s%C3%B6ren-eckhardt-1a5a0a391/" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                    
+                    <div class="email-contact">
+                        <h4 class="text-center">Oder schreibe mir eine E-Mail</h4>
+                        <p class="text-center">
+                            <a href="mailto:soeren@eckhardt.dev" class="email-link">
+                                soeren@eckhardt.dev
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sören Eckhardt. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
